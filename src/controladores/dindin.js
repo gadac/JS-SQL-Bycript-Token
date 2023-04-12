@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const chaveSecreta = '#cortagiro'
 
-async function VerificarToken(req) {
+async function VerificarToken(req) {  
   const autorizacaoHeader = req.headers.authorization
   const tokenRecebido = autorizacaoHeader.split(' ')[1]
 

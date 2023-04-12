@@ -11,7 +11,8 @@ const {
   DetalharTransacao,
   AtualizarTransacao,
   DeletarTransacao,
-  ExtratoTransacoes,
+  ExtratoTransacoes,  
+  
 } = require('../controladores/dindin')
 
 const rotas = express()
